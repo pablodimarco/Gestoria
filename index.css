@@ -1,0 +1,129 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.seccion {
+  background-color: #333;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 10rem;
+  padding: 2rem;
+  align-items: center;
+  justify-content: space-around;
+}
+.seccion .menu {
+  align-self: center;
+  margin: auto;
+  padding-top: 1rem;
+  gap: 1rem;
+}
+.seccion .menu li {
+  list-style-type: none;
+}
+.seccion .menu li a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: azure;
+}
+.seccion .menu li a:hover {
+  color: beige;
+  text-shadow: 2px 2px 7px white;
+}
+.seccion h1 {
+  color: aliceblue;
+  margin: auto;
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 3rem;
+  text-shadow: 3px 3px 9px black;
+}
+
+.obfuscate-section {
+  background: rgba(205, 205, 205, 0.3);
+  width: 100%;
+  height: 100%;
+}
+
+.seccion-inicio {
+  flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 30rem;
+  background-image: url(https://th.bing.com/th/id/R.bbe26b997560c3733acaab63886c5752?rik=jkNE7RtiuhdfAQ&riu=http%3a%2f%2fwww.globalsat.tech%2fimg%2fslider%2fimg_11.jpg&ehk=VA00tTtgnrJvy07UKOgCqfDIu6UvB8x%2f4sC4HcqAouM%3d&risl=&pid=ImgRaw&r=0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.seccion-inicio div {
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+}
+.seccion-inicio div h1 {
+  font-size: 4rem;
+  color: #222;
+  text-shadow: 4px 4px 10px white;
+  font-weight: 700;
+}
+.seccion-inicio div .par-class {
+  flex-direction: column;
+  width: 43rem;
+  height: 7rem;
+  margin-top: 2rem;
+  overflow: hidden;
+}
+.seccion-inicio div .par-class ul {
+  padding: 0;
+}
+.seccion-inicio div .par-class ul li {
+  color: #222;
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-shadow: 4px 4px 10px aliceblue;
+  list-style-type: none;
+  text-align: start;
+}
+
+@media (max-width: 782px) {
+  .seccion {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+  }
+  .seccion-inicio {
+    flex-wrap: wrap;
+  }
+  .seccion-inicio div h1 {
+    font-size: 3rem;
+  }
+  .seccion-inicio div .par-class {
+    width: 30rem;
+    height: 7rem;
+  }
+  .seccion-inicio div .par-class ul li {
+    color: #222;
+    font-size: 2.1rem;
+    font-weight: 700;
+    text-shadow: 4px 4px 10px aliceblue;
+  }
+}
+@media (max-width: 475px) {
+  .seccion-inicio div h1 {
+    font-size: 2.5rem;
+  }
+  .seccion-inicio div .par-class {
+    width: 25rem;
+    height: 5rem;
+  }
+  .seccion-inicio div .par-class ul li {
+    font-size: 1.5rem;
+  }
+}/*# sourceMappingURL=index.css.map */
