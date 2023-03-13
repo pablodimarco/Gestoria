@@ -1,6 +1,8 @@
 body {
   padding: 0;
   margin: 0;
+  width: 100vw;
+  height: 100vh;
 }
 
 .seccion {
@@ -43,18 +45,18 @@ body {
 }
 
 .obfuscate-section {
+  align-items: center;
   background: rgba(205, 205, 205, 0.3);
   width: 100%;
   height: 100%;
 }
 
 .seccion-inicio {
-  flex-direction: column;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   width: 100%;
   height: 30rem;
   background-image: url(https://th.bing.com/th/id/R.bbe26b997560c3733acaab63886c5752?rik=jkNE7RtiuhdfAQ&riu=http%3a%2f%2fwww.globalsat.tech%2fimg%2fslider%2fimg_11.jpg&ehk=VA00tTtgnrJvy07UKOgCqfDIu6UvB8x%2f4sC4HcqAouM%3d&risl=&pid=ImgRaw&r=0);
@@ -63,9 +65,10 @@ body {
   background-position: center;
 }
 .seccion-inicio div {
-  flex-direction: column;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .seccion-inicio div h1 {
   font-size: 4rem;
@@ -100,13 +103,14 @@ body {
   }
   .seccion-inicio {
     flex-wrap: wrap;
+    padding-left: 1;
   }
   .seccion-inicio div h1 {
     font-size: 3rem;
   }
   .seccion-inicio div .par-class {
     width: 30rem;
-    height: 7rem;
+    height: 6.8rem;
   }
   .seccion-inicio div .par-class ul li {
     color: #222;
@@ -121,7 +125,7 @@ body {
   }
   .seccion-inicio div .par-class {
     width: 25rem;
-    height: 5rem;
+    height: 4.6rem;
   }
   .seccion-inicio div .par-class ul li {
     font-size: 1.5rem;
