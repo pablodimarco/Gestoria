@@ -1,47 +1,26 @@
-body {
-  padding: 0;
+* {
   margin: 0;
-  width: 100vw;
+  padding: 0;
+}
+
+body {
   height: 100vh;
 }
 
-.seccion {
-  background-color: #333;
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  height: 10rem;
-  padding: 2rem;
-  align-items: center;
-  justify-content: space-between;
+.navbar {
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
-.seccion #width-drop {
-  display: none;
-}
-.seccion .menu {
-  padding-top: 1rem;
-  gap: 2rem;
-}
-.seccion .menu li {
-  list-style-type: none;
-}
-.seccion .menu li a {
-  text-decoration: none;
-  font-size: 1rem;
-  color: azure;
-}
-.seccion .menu li a:hover {
-  color: beige;
-  text-shadow: 2px 2px 7px white;
-}
-.seccion h1 {
-  color: aliceblue;
-  text-align: center;
-  font-family: "Anton", sans-serif;
+.navbar .navbar-brand {
+  font-size: 5vh;
+  font-family: "Golos Text", sans-serif;
   font-style: italic;
-  font-weight: 400;
-  font-size: 3rem;
-  text-shadow: 3px 3px 9px black;
+  text-shadow: 4px 4px 10px #000;
+  margin-left: 2vh;
+}
+.navbar .nav-link:hover {
+  text-shadow: 3px 3px 8px rgb(243, 252, 227);
+  transform: scale(1.2, 1.2);
 }
 
 .obfuscate-section {
@@ -66,29 +45,33 @@ body {
   background-size: cover;
   background-position: center;
 }
-.seccion-inicio div {
+.seccion-inicio .div-inicio-1 {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: start;
+  width: 90%;
 }
-.seccion-inicio div h1 {
+.seccion-inicio .div-inicio-1 h1 {
+  width: 100%;
   font-size: 4rem;
   color: #222;
   text-shadow: 4px 4px 10px white;
   font-weight: 700;
 }
-.seccion-inicio div .par-class {
+.seccion-inicio .div-inicio-1 .par-class {
+  display: flex;
   flex-direction: column;
-  width: 43rem;
+  padding: 0;
+  width: 100%;
   height: 7rem;
   margin-top: 2rem;
   overflow: hidden;
 }
-.seccion-inicio div .par-class ul {
+.seccion-inicio .div-inicio-1 .par-class ul {
   padding: 0;
 }
-.seccion-inicio div .par-class ul li {
+.seccion-inicio .div-inicio-1 .par-class ul li {
   color: #222;
   font-size: 2.2rem;
   font-weight: 700;
@@ -120,7 +103,6 @@ body {
     font-size: 3rem;
   }
   .seccion-inicio div .par-class {
-    width: 30rem;
     height: 6.8rem;
   }
   .seccion-inicio div .par-class ul li {
@@ -144,9 +126,6 @@ body {
   }
   .seccion #ul-w {
     width: 100vw;
-  }
-  .seccion .navbar-toggler {
-    padding: 1.5rem;
   }
   .seccion .navbar-dark .navbar-toggler {
     color: white;
@@ -175,7 +154,6 @@ body {
   }
   .seccion-inicio .div-inicio-1 .par-class {
     display: flex;
-    width: 25rem;
     height: 4.6rem;
     margin-top: 3rem;
   }
