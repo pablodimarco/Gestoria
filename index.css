@@ -66,7 +66,7 @@ body {
 }
 .seccion-inicio .obfuscate-section .div-inicio-1 .par-class {
   display: flex;
-  height: 21vw;
+  height: 16vw;
   margin-top: 3rem;
   overflow: hidden;
   flex-direction: column;
@@ -75,11 +75,11 @@ body {
 }
 .seccion-inicio .obfuscate-section .div-inicio-1 .par-class ul {
   display: block;
-  padding: 0.5rem;
+  padding: 0;
 }
 .seccion-inicio .obfuscate-section .div-inicio-1 .par-class ul li {
   color: #222;
-  font-size: 6vw;
+  font-size: 5vw;
   font-weight: 700;
   text-shadow: 4px 4px 10px aliceblue;
   list-style-type: none;

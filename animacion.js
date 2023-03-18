@@ -4,7 +4,7 @@ function frames() {
 
     const anim = desplazamiento.animate([
         { transform: "TranslateY(0px)" },
-        { transform: `TranslateY(${screen.width > 475 ? -16 : -16}vw)`},
+        { transform: `TranslateY(${screen.width > 475 ? -15 : -15}vw)`},
     ], {
         easing: "linear",
         iterations: 1,
