@@ -11,6 +11,7 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
@@ -72,7 +73,7 @@
     </section>
     <section class="Qsomos" id="Qsomos-m">
         <div class="div-1 container">
-            <h1>Sobre nosotros</h1>
+            <h1 class="fs-1">Sobre nosotros</h1>
         </div>
         <hr class="hr-line">
         <p class="text-white fw-bold text-center">Gestoria J & A es una organización creada con el fin de proveer un
@@ -150,6 +151,10 @@
 
     </section>
     <section class="contacto" id="contactos">
+       <h1 class="text-white mb-1 fs-1">Contacto</h1>
+       <hr class="hr-line">
+       <p class="text-center text-white">Completa los datos del formulario para contactarnos y asi resolver tu consulta</p>
+
         <div class="col-md-8">
             <form action="https://formsubmit.co/gestoresjya@gmail.com" method="POST">
                 <input type="text" name="name" id="name" class="form-control mb-3" placeholder="Nombre">
@@ -157,11 +162,27 @@
                 <input type="number" name="phone" id="subject" class="form-control mb-3" placeholder="Telefono">
                 <textarea name="message" id="message" class="form-control mb-3" placeholder="Mensaje"></textarea>
                 <div class="col-md-8">
-                    <button type="submit" id="liveToast"class="btn btn-primary">Enviar</button>
+                    <button type="submit" id="liveToast"class="btn btn-secondary">Enviar</button>
                 </div>
                 <input type="hidden" name="_next" value="http://127.0.0.1:5500/Gestoria.html">
                 <input type="hidden" name="_captcha" value="false">
             </form>
+        </div>
+        <p class="text-center text-white p-3.4 pb-0">Tambien podes ponerte en contacto mediante el telefono o mail que se detallan abajo</p>
+        <div class="contain mt-4">
+            <span><i class="fa-solid fa-envelope fa-fade fa-lg" style="color: whitesmoke;"></i></span>
+            <h1 class="text-white fs-6">gestoresjya@gmail.com</h1>
+        </div>
+        <div class="contain mt-2">
+            <span><i class="fa-solid fa-phone fa-fade fa-lg" style="color: whitesmoke;"></i></span>
+            <h1 class="text-white fs-6">221 552-9732</h1>
+        </div>
+    </section>
+    <section class="footer">
+        <h1 class="text-center fs-5">[ Web Designers ]</h1>
+        <div>
+            <li><a href="https://github.com/pablodimarco">Pablo Di marco</a></li>
+            <li><a href="https://github.com/Franco-Amon-Maldonado">Franco Maldonado</a></li>
         </div>
     </section>
 </body>
