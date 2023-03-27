@@ -25,3 +25,9 @@ function displace() {
 setInterval(() => {
     displace();
 }, 5000);
+
+
+window.addEventListener("scroll", function(){
+    var navegador = document.querySelector("nav");
+    navegador.classList.toggle("abajo", window.scrollY > 0)
+})
