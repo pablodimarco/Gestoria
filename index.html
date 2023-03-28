@@ -144,7 +144,7 @@
         </p>
 
         <div class="col-md-8">
-            <form action="enviar.php" method="POST">
+            <form action="https://formsubmit.co/1c09f4b115ef22d8183107537a8cea7b" method="POST">
                 <input type="text" name="name" id="name" class="form-control mb-3" placeholder="Nombre">
                 <input type="mail" name="mail" id="email" class="form-control mb-3" placeholder="Mail">
                 <input type="number" name="phone" id="subject" class="form-control mb-3" placeholder="Telefono">
@@ -152,6 +152,8 @@
                 <div class="col-md-8">
                     <button type="submit" class="btn btn-secondary">Enviar</button>
                 </div>
+                <input type="hidden" name="_next" value="http://localhost/?formSend=success#contactos">
+                <input type="hidden" name="_captcha" value="false">
             </form>
         </div>
         <p class="text-center text-white p-3.4 pb-0 fs-5">Tambien podes ponerte en contacto mediante el telefono o mail

@@ -8,7 +8,7 @@ body {
 }
 
 section:target {
-  scroll-margin-top: 11vh;
+  scroll-margin-top: 9vh;
 }
 
 nav.abajo {
@@ -268,6 +268,9 @@ nav.abajo {
 }
 
 @media (min-width: 700px) {
+  section:target {
+    scroll-margin-top: 10.5vh;
+  }
   .seccion-inicio .obfuscate-section .div-inicio-1 h1 {
     font-size: 5vw;
   }
@@ -291,6 +294,9 @@ nav.abajo {
   }
 }
 @media (min-width: 900px) {
+  section:target {
+    scroll-margin-top: 12vh;
+  }
   .navbar-collapse {
     flex-grow: 0;
     gap: 1rem;
@@ -306,6 +312,9 @@ nav.abajo {
   }
 }
 @media (min-width: 1100px) {
+  section:target {
+    scroll-margin-top: 13vh;
+  }
   .seccion-inicio .obfuscate-section .div-inicio-1 h1 {
     font-size: 3.5vw;
   }
