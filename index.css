@@ -224,7 +224,7 @@ nav.abajo {
   justify-content: center;
 }
 
-.footer {
+footer {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -232,37 +232,32 @@ nav.abajo {
   background-color: #555;
   align-items: center;
   justify-content: space-evenly;
-}
-.footer a {
-  color: white;
-  text-decoration: none;
   font-size: 1.2rem;
   font-weight: 600;
   font-family: "Fasthand";
 }
-.footer a:hover {
+footer a {
+  color: white;
+  text-decoration: none;
+}
+footer a:hover {
+  color: white;
   text-shadow: 4px 4px 10px black;
 }
-.footer div {
+footer .colab {
   display: flex;
   flex-direction: row;
   gap: 2vh;
 }
-.footer div h2 {
-  font-size: 1.2rem;
-  color: white;
-  font-weight: 600;
-  font-family: "Fasthand";
-  text-decoration: underline;
-}
-.footer div a {
+footer .colab span {
   color: white;
   text-decoration: none;
-  font-size: 1.1rem;
-  font-weight: 600;
-  font-family: "Fasthand";
 }
-.footer div a:hover {
+footer .colab a {
+  text-decoration: underline;
+}
+footer .colab a:hover {
+  color: white;
   text-shadow: 4px 4px 10px black;
 }
 

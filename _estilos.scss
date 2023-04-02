@@ -253,7 +253,7 @@ nav.abajo {
     }
 }
 
-.footer {
+footer {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -261,40 +261,36 @@ nav.abajo {
     background-color: #555;
     align-items: center;
     justify-content: space-evenly;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'Fasthand';
 
     a {
         color: white;
         text-decoration: none;
-        font-size: 1.2rem;
-        font-weight: 600;
-        font-family: 'Fasthand';
 
         &:hover {
+            color: white;
             text-shadow: 4px 4px 10px black;
         }
     }
 
-    div {
+    .colab {
         display: flex;
         flex-direction: row;
         gap: 2vh;
 
-        h2 {
-            font-size: 1.2rem;
+        span {
             color: white;
-            font-weight: 600;
-            font-family: 'Fasthand';
-            text-decoration: underline;
+            text-decoration: none;
         }
 
         a {
-            color: white;
-            text-decoration: none;
-            font-size: 1.1rem;
-            font-weight: 600;
-            font-family: 'Fasthand';
+
+            text-decoration: underline;
 
             &:hover {
+                color: white;
                 text-shadow: 4px 4px 10px black;
             }
         }
@@ -343,6 +339,7 @@ nav.abajo {
             line-height: 3rem;
         }
     } 
+    
 }
 
 @media (min-width:900px) {
