@@ -200,9 +200,8 @@ nav.abajo {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        border-radius: 10%;
+        padding: 1rem;
+        border-radius: 20px;
         box-shadow: 4px 4px 8px 2px #333;
         width: 80%;
 
@@ -410,9 +409,6 @@ nav.abajo {
 }
 
 @media (min-height:640px) {
-    .Service {
-        height: 240%;
-    }
 
     .contacto {
         height: 130%;
